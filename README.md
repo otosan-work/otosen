@@ -6,11 +6,13 @@
 3. /usr/local/Cellar/mosquitto/1.5.5/sbin/mosquitto -v -c /usr/local/etc/mosquitto/mosquitto.conf
 
 ### mosquitto.conf
- # Enable both MQTT and Web Sockets
+```
+# Enable both MQTT and Web Sockets
 listener 1883
 listener 8080 127.0.0.1
 protocol web-sockets
- # Enable logs
+
+# Enable logs
 log_dest stdout
 log_dest file /var/log/mosquitto.log
 log_type error
@@ -19,3 +21,4 @@ log_type notice
 log_type information
 log_type subscribe
 log_type unsubscribe
+```
