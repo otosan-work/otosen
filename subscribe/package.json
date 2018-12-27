@@ -1,0 +1,11 @@
+{
+  "name": "otosen",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "node node_modules/.bin/http-server"
+  },
+  "dependencies": {
+    "http-server": "*"
+  }
+}
